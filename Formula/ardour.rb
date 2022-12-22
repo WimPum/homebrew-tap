@@ -3,7 +3,7 @@ class Ardour < Formula
   homepage "https://ardour.org/"
   url "https://web.archive.org/web/20210920180825/https://community.ardour.org/srctar"
   version "6.6"
-  sha256 "065b9f73e6e5e6b6063ef4f486b2a7e09e18516fc6d8cd2430e39f55ef68139e"
+  sha256 "dcb68215822e3f826c9fc0826c7f9f98c9b6d39a4cb9ab67432c85eb5c636732"
   head "https://github.com/Ardour/ardour.git"
 
   depends_on "aubio"
