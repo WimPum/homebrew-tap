@@ -30,6 +30,7 @@ class Ardour < Formula
   depends_on "vamp-plugin-sdk"
 
   def install
+    export PKG_CONFIG_PATH='/opt/homebrew/opt/libarchive/lib/pkgconfig'
     system "./waf", "configure", "--prefix=#{prefix}", "--with-backends=jack"
     system "./waf", "install"
 
